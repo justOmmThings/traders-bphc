@@ -1,0 +1,71 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.about, .mission, .events {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta {
+  background-color: #007399;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.cta:hover {
+  background-color: #005f73;
+}
+
+.footer {
+  background-color: #0D1821;
+  color: #F0F4EF;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links li a {
+  color: #F0F4EF;
+  font-size: 1.5rem; /* Adjust the size of the icons */
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  transition: 0.5s;
+  color: #4392F1;
+}
+
+/* Copyright style */
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}

@@ -1,0 +1,69 @@
+.mission-section {
+    padding: 2rem;
+    background: #F0F4EF; /* Gradient background */
+    color: #0D1821; /* Text color */
+    text-align: center; /* Center text */
+  }
+  
+  .mission-heading {
+    font-size: 2.5rem; /* Larger heading size */
+    font-weight: bold;
+    color: #4392F1; /* Highlight color */
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem; /* Space below heading */
+    background-color: #4392F1; /* Gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Make text color transparent to show gradient */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for better readability */
+  }
+  
+  .mission-heading::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 80px; /* Underline width */
+    background: #4392F1; /* Underline color */
+    margin: 0.5rem auto 0; /* Center underline */
+    border-radius: 2px;
+  }
+  
+  .mission-cards {
+    display: flex;
+    justify-content: center; /* Center cards */
+    flex-wrap: wrap; /* Wrap cards to the next line if needed */
+    gap: 1.5rem; /* Space between cards */
+  }
+  
+  .mission-card {
+    background: #0D1821; /* Card background color */
+    color: #F0F4EF; /* Card text color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+    padding: 1.5rem;
+    max-width: 300px; /* Card width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .mission-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .mission-card-icon {
+    font-size: 3rem; /* Icon size */
+    margin-bottom: 1rem; /* Space below icon */
+  }
+  
+  .mission-card-title {
+    font-size: 1.25rem; /* Card title size */
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Space below title */
+  }
+  
+  .mission-card-description {
+    font-size: 1rem; /* Card description size */
+    line-height: 1.5;
+  }
+  

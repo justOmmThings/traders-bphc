@@ -1,0 +1,93 @@
+.events-section {
+    padding: 2rem;
+    background: #F0F4EF; /* Light background color */
+    color: #0D1821; /* Text color */
+    text-align: center; /* Center text */
+  }
+  
+  .events-heading {
+    font-size: 2.5rem; /* Larger heading */
+    font-weight: bold;
+    margin-bottom: 2rem; /* Space below heading */
+    color: #4392F1; /* Highlight color */
+    position: relative;
+    display: inline-block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .events-heading::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 50px;
+    background: #4392F1;
+    margin: 0.5rem auto 0; /* Center underline */
+    border-radius: 2px;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 1.5rem; /* Space between grid items */
+  }
+  
+  .event-card {
+    background: #fff; /* Card background color */
+    color: #0D1821; /* Card text color */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Card shadow */
+    padding: 1.5rem 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor */
+    position: relative;
+    overflow: hidden; /* Hide overflow */
+    display: flex; /* Flexbox for card layout */
+    flex-direction: column; /* Column layout */
+    justify-content: space-between; /* Space content evenly */
+  }
+  
+  .event-card:hover {
+    transform: translateY(-12px); /* Lift card on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    background: #e6f7ff;
+  }
+
+  .event-card-header {
+    text-align: center; /* Center text */
+    margin-bottom: 1rem;
+  }
+  
+  .event-card-title {
+    font-size: 1.75rem; /* Title size */
+    font-weight: bold;
+    color: #0D1821; /* Title color */
+  }
+  
+  .event-card-time {
+    font-size: 1.2rem; /* Larger time size */
+    color: #666; /* Subtle text color */
+    margin-bottom: 0.25rem; /* Space below time */
+  }
+  
+  .event-card-location {
+    font-size: 1rem; /* Location size */
+    color: #666; /* Subtle text color */
+    margin-bottom: 0.5rem; /* Space below location */
+  }
+  
+  .event-card-enroll {
+    background-color: #4392F1; /* Button background color */
+    color: #F0F4EF; /* Button text color */
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    align-self: center; /* Center button */
+  }
+  
+  .event-card-enroll:hover {
+    background-color: #4392F1; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+  
