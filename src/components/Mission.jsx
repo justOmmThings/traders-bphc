@@ -5,7 +5,7 @@ import { FaBullhorn, FaChartLine, FaHandshake } from 'react-icons/fa'; // Exampl
 const Mission = () => {
   return (
     <section className="mission-section mission" id="mission">
-      <h3 className="mission-heading">Our Mission</h3>
+      <h3 className="mission-heading">Our Goals</h3>
       <div className="mission-cards">
         <div className="mission-card">
           <div className="mission-card-icon"><FaBullhorn /></div>

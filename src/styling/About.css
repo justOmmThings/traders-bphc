@@ -48,23 +48,25 @@
   }
   
   .join-button {
-    background-color: #004d66;
+    background-color: #4392F1;
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     font-family: 'Arial', sans-serif;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 1rem;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease, transform 0.3s ease;
     opacity: 0; /* Initially hidden */
     transform: translateY(20px); /* Start position for sliding effect */
     animation: slide-in-bottom 1s 0.5s forwards; /* Apply slide-in animation */
   }
   
   .join-button:hover {
-    background-color: #00334d;
+    background-color: #4392F1;
+    transform: scale(1.05);
+    padding: 0.75rem 1.5rem;
   }
   
   .vector-image {
@@ -114,3 +116,20 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .about-heading {
+      font-size: 2rem;
+    }
+
+    .about-content{
+      width: 100%;
+    }
+
+    .vector-image{
+      display: none;
+    }
+  
+    .about-content p {
+      font-size: 1rem;
+    }
+  }

@@ -3,6 +3,7 @@
     background: #F0F4EF; /* Light background color */
     color: #0D1821; /* Text color */
     text-align: center; /* Center text */
+    padding-top: 5rem;
   }
   
   .events-heading {
@@ -82,7 +83,7 @@
     border-radius: 6px;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    transition: background-color 0.3s ease, transform 0.3s ease;
     align-self: center; /* Center button */
   }
   

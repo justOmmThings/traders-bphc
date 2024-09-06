@@ -67,3 +67,16 @@
     line-height: 1.5;
   }
   
+  @media (max-width: 768px) {
+    .mission-heading {
+      font-size: 2.5rem; /* Smaller heading on small screens */
+    }
+  
+    .mission-content {
+      font-size: 1rem; /* Smaller font size on small screens */
+    }
+  
+    .mission-card {
+      padding: 1rem; /* Reduce padding on small screens */
+    }
+  }
