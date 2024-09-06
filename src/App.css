@@ -22,7 +22,8 @@ body {
   background-color: #0D1821;
   color: #F0F4EF;
   text-align: center;
-  /* width: 100%; */
+  line-height: 2rem;
+  width: 100%;
   padding: 1.5rem;
   border-radius: 8px;
 }

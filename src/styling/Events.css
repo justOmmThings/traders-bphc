@@ -62,18 +62,19 @@
     font-size: 1.75rem; /* Title size */
     font-weight: bold;
     color: #0D1821; /* Title color */
+    margin-bottom: 1.5rem;
   }
   
   .event-card-time {
     font-size: 1.2rem; /* Larger time size */
     color: #666; /* Subtle text color */
-    margin-bottom: 0.25rem; /* Space below time */
+    margin-bottom: 0.15rem; /* Space below time */
   }
   
   .event-card-location {
     font-size: 1rem; /* Location size */
     color: #666; /* Subtle text color */
-    margin-bottom: 0.5rem; /* Space below location */
+    margin-bottom: 0.25rem; /* Space below location */
   }
   
   .event-card-enroll {
